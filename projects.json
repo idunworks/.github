@@ -1,0 +1,37 @@
+{
+	"projects": [
+		{
+			"slug": "claude-skills",
+			"name": "Claude skills",
+			"tagline": "Free Claude Code skills from the features we build. Each one is a tested way of working your AI can follow, and none of them publishes anything on its own.",
+			"kind": "skills",
+			"status": "live",
+			"repo": "idunworks/claude-skills",
+			"demo": "/skills"
+		},
+		{
+			"slug": "muntra",
+			"name": "Muntra",
+			"tagline": "Small, privacy-first web analytics in Go. No cookies, visitor hashes with a salt that changes every day, and bots counted apart from people.",
+			"kind": "service",
+			"status": "live",
+			"repo": "Tdude/muntra"
+		},
+		{
+			"slug": "games",
+			"name": "Browser games",
+			"tagline": "Small games built into the sites on Idun: bouldering, kayaking and hunting on the ice. Free to play on a phone or a computer.",
+			"kind": "games",
+			"status": "live",
+			"demo": "/games"
+		},
+		{
+			"slug": "startup-model",
+			"name": "Startup model",
+			"tagline": "Work out what a small startup needs: stages, team, money in and out, and the risks, in one page that stays in your browser.",
+			"kind": "tool",
+			"status": "early",
+			"demo": "/tools/startup-model"
+		}
+	]
+}
