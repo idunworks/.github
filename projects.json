@@ -31,6 +31,7 @@
 			"tagline": "Work out what a small startup needs: stages, team, money in and out, and the risks, in one page that stays in your browser.",
 			"kind": "tool",
 			"status": "early",
+			"repo": "idunworks/startup-model",
 			"demo": "/tools/startup-model"
 		}
 	]
