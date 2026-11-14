@@ -40,7 +40,8 @@
 			"tagline": "Share a password once. It is encrypted in your browser, each recipient gets their own link that shows it a single time, and then it is deleted. Self-hosted.",
 			"kind": "service",
 			"status": "early",
-			"repo": "idunworks/fulla"
+			"repo": "idunworks/fulla",
+			"demo": "/fulla-demo"
 		}
 	]
 }
