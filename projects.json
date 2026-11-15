@@ -15,7 +15,8 @@
 			"tagline": "Small, privacy-first web analytics in Go. No cookies, visitor hashes with a salt that changes every day, and bots counted apart from people.",
 			"kind": "service",
 			"status": "live",
-			"repo": "Tdude/muntra"
+			"repo": "Tdude/muntra",
+			"demo": "/muntra-demo"
 		},
 		{
 			"slug": "games",
