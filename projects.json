@@ -10,6 +10,15 @@
 			"demo": "/skills"
 		},
 		{
+			"slug": "startup-model",
+			"name": "Startup model",
+			"tagline": "Work out what a small startup needs: stages, team, money in and out, and the risks, in one page that stays in your browser.",
+			"kind": "tool",
+			"status": "early",
+			"repo": "idunworks/startup-model",
+			"demo": "/tools/startup-model"
+		},
+		{
 			"slug": "muntra",
 			"name": "Muntra",
 			"tagline": "Small, privacy-first web analytics in Go. No cookies, visitor hashes with a salt that changes every day, and bots counted apart from people.",
@@ -25,15 +34,6 @@
 			"kind": "games",
 			"status": "live",
 			"demo": "/games"
-		},
-		{
-			"slug": "startup-model",
-			"name": "Startup model",
-			"tagline": "Work out what a small startup needs: stages, team, money in and out, and the risks, in one page that stays in your browser.",
-			"kind": "tool",
-			"status": "early",
-			"repo": "idunworks/startup-model",
-			"demo": "/tools/startup-model"
 		},
 		{
 			"slug": "fulla",
