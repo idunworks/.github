@@ -1,6 +1,7 @@
 ### idunworks
 
-Free tools, tutorials and benchmarks from building [Idun CMS](https://idunworks.com/projects?utm_source=github&utm_medium=profile&utm_campaign=org), the platform behind idunworks.com and the sites it hosts. Private AI on your own hardware, privacy-first analytics, and things that check facts instead of guessing.
+Free tools, tutorials and benchmarks from building [Idun CMS](https://idunworks.com/projects?utm_source=github&utm_medium=profile&utm_campaign=org), the engine behind idunworks.com and the sites it hosts. You get local AI on your own hardware that checks facts instead of guessing, privacy-first analytics, a self-hosted Kanban thingy for drag-and-drop tasks with multiple owners, and more. Everything stays private. Did we mention it's private? We’re kind of obnoxious about that.
+
 
 - **[claude-skills](https://github.com/idunworks/claude-skills):** Claude Code skills from real work. None of them publishes anything on its own.
 - **[muntra](https://github.com/Tdude/muntra):** small, privacy-first web analytics in Go.
