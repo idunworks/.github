@@ -4,6 +4,9 @@ Free tools, tutorials and benchmarks from building [Idun CMS](https://idunworks.
 
 - **[claude-skills](https://github.com/idunworks/claude-skills):** Claude Code skills from real work. None of them publishes anything on its own.
 - **[muntra](https://github.com/Tdude/muntra):** small, privacy-first web analytics in Go.
+- **[faq-rag](https://github.com/idunworks/faq-rag):** a local AI assistant for your documents that cites its sources, and a benchmark behind every choice.
+- **[fulla](https://github.com/idunworks/fulla):** share a password once, encrypted in the browser, with a link that works a single time.
+- **[startup-model](https://github.com/idunworks/startup-model):** plan pay, ownership and cash flow for a founding team, in your browser.
 
 Every project, with the story behind it: **[idunworks.com/projects](https://idunworks.com/projects?utm_source=github&utm_medium=profile&utm_campaign=org)**
 
