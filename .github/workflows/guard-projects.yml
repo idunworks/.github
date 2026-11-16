@@ -1,0 +1,53 @@
+# Puts back any card that a push dropped from projects.json by accident, then fails so you get an email.
+# Remove a card on purpose by writing `remove-card: <slug>` in the commit message.
+# Details: .github/scripts/guard_projects.py
+name: Guard projects.json
+
+on:
+  push:
+    paths: [projects.json]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guard-projects-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - name: Check for dropped cards
+        id: guard
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set +e
+          python3 .github/scripts/guard_projects.py "$BEFORE" "$AFTER"
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Commit the restored cards
+        if: steps.guard.outputs.code == '1'
+        env:
+          REF: ${{ github.ref_name }}
+          AFTER: ${{ github.sha }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "fix: restore project card(s) dropped by ${AFTER::7}" \
+            -m "The push removed card(s) without 'remove-card: <slug>' in a commit message. See the Guard projects.json run."
+          git push origin "HEAD:refs/heads/$REF"
+      - name: Fail so the change gets noticed
+        if: steps.guard.outputs.code != '0'
+        run: |
+          if [ "${{ steps.guard.outputs.code }}" = "1" ]; then
+            echo "::error::Dropped card(s) were restored in a new commit on ${{ github.ref_name }}. Pull before editing projects.json."
+          else
+            echo "::error::projects.json is broken; fix it by hand."
+          fi
+          exit 1
