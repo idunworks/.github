@@ -59,6 +59,14 @@
 			"kind": "tool",
 			"status": "early",
 			"repo": "idunworks/idun-image-lab"
+		},
+		{
+			"slug": "norn",
+			"name": "Norn",
+			"tagline": "A small kanban board for teams: drag cards between columns, comment with @mentions, estimate time. One Node process and one SQLite file, sign-in by emailed link. Self-hosted.",
+			"kind": "service",
+			"status": "early",
+			"repo": "idunworks/norn"
 		}
 	]
 }
