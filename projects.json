@@ -45,12 +45,12 @@
 			"demo": "/fulla-demo"
 		},
 		{
-			"slug": "idun-image-lab",
-			"name": "Idun Image Lab",
-			"tagline": "Make AI images on your own Mac, tuned 3× faster: 37-second drafts, then a high-res version of the one you like. Swap models freely: base, Turbo, or uncensored finetunes (not endorsed).",
-			"kind": "tool",
+			"slug": "faq-rag",
+			"name": "faq-rag",
+			"tagline": "A local AI assistant for your own documents. It cites its sources, says “I don’t know” when they don’t hold the answer, and every change is measured. Runs on your own hardware.",
+			"kind": "service",
 			"status": "early",
-			"repo": "idunworks/idun-image-lab"
+			"repo": "idunworks/faq-rag"
 		}
 	]
 }
