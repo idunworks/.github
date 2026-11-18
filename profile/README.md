@@ -9,6 +9,7 @@ Free tools, tutorials and benchmarks from building [Idun CMS](https://idunworks.
 - **[fulla](https://github.com/idunworks/fulla):** share a password once, encrypted in the browser, with a link that works a single time.
 - **[norn](https://github.com/idunworks/norn):** a small kanban board for teams, with @mentions and time estimates, in one SQLite file.
 - **[startup-model](https://github.com/idunworks/startup-model):** plan pay, ownership and cash flow for a founding team, in your browser.
+- **[crayon-o-matic](https://github.com/idunworks/crayon-o-matic):** show us your inner kid, then print it on a t-shirt.
 
 Every project, with the story behind it: **[idunworks.com/projects](https://idunworks.com/projects?utm_source=github&utm_medium=profile&utm_campaign=org)**
 
