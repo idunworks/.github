@@ -67,6 +67,14 @@
 			"kind": "service",
 			"status": "early",
 			"repo": "idunworks/norn"
+		},
+		{
+			"slug": "crayon-o-matic",
+			"name": "Crayon-o-matic",
+			"tagline": "Type a motif and pick an age from 3 to 6, and get the drawing a child that age would make, as print-ready vector art. Built on what developmental research says children draw, and seeded, so the same dials always give the same picture.",
+			"kind": "tool",
+			"status": "early",
+			"repo": "idunworks/crayon-o-matic"
 		}
 	]
 }
